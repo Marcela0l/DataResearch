@@ -1,0 +1,22 @@
+using System;
+
+public enum DayOfWeek
+{
+    Sunday,
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday
+}
+
+class Program
+{
+    static void Main()
+    {
+        DayOfWeek today = DayOfWeek.Friday;
+
+        Console.WriteLine($"Today is {today}");
+    }
+}
